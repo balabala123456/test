@@ -10,31 +10,28 @@ image{
   display: flex;
 }
 .butdisplay{
-  margin-top: 40rpx;
+  margin-top: 100rpx;
+
 }
 .fxy{
-  margin-top:100rpx ;
-  border-left: 10rpx;
-  padding-top: 30rpx;
-  background-color: rosybrown;
   height: 200rpx;
-  border: 5px solid #fff;
+  line-height: 200rpx;
+  background-color: rosybrown;
+  margin-top: 50rpx;
   width: 300rpx;
   border-radius: 25px;
 }
 .hzjy{
-  margin-top:100rpx; 
-  padding-top: 30rpx;
-  background-color: rosybrown;
   height: 200rpx;
-  border: 5px solid #fff;
+  line-height: 200rpx;
+  background-color: rosybrown;
+  margin-top: 50rpx;
   width: 300rpx;
-  margin-left: 20rpx;
   border-radius: 25px;
 }
 .lxs{
   height: 200rpx;
-  padding-top: 45rpx;
+  line-height: 200rpx;
   background-color: rosybrown;
   margin-top: 50rpx;
   width: 300rpx;
