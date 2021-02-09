@@ -1,0 +1,43 @@
+<!--pages/management/pwinfoquery/pwinfoquery.wxml-->
+<view>
+    <view class="display_select_but">
+        <button class="buttime" bindtap="selectime" style="background-color:{{background_color1}};color:{{color1}}">按时间{{}}</button>
+        <button class="butnametel" bindtap="selectname" style="background-color:{{background_color2}};color:{{color2}}">按人名/联系方式</button>
+    </view>
+    <!-- 按时间查询的界面展示-->
+    <view wx:if="{{flag == 1}}">
+        <view class="displaydeadline">
+            <text class="textdeadline">按牌位到期日期:</text>
+            <view class="displaytime">
+                <input class="inputyear" type="number" bindinput="year1"></input>
+                <text class="textyear">年</text>
+                <input class="inputmonth" type="number" bindinput="month1"></input>
+                <text class="textmonth">月</text>
+                <input class="inputday" type="number" bindinput="day1"></input>
+                <text class="textday">日</text>
+            </view>
+            <button class="butquery" bindtap="query1">查询</button>
+        </view>
+        <view class="displayinitline">
+            <text class="textdeadline">按牌位初始日期:</text>
+            <view class="displaytime">
+                <input class="inputyear" type="number" bindinput="year2"></input>
+                <text class="textyear">年</text>
+                <input class="inputmonth" type="number" bindinput="month2"></input>
+                <text class="textmonth">月</text>
+                <input class="inputday" type="number" bindinput="day2"></input>
+                <text class="textday">日</text>
+            </view>
+            <button class="butquery" bindtap="query2">查询</button>
+        </view>
+    </view>
+    <!-- 按人名/联系方式查询的界面展示 -->
+    <view wx:if="{{flag == 160}}">
+        <text>按人名/联系方式查询的界面展示</text>
+    </view>
+</view>
+
+
+
+
+

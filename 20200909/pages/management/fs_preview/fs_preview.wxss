@@ -1,0 +1,65 @@
+/* pages/fs_preview/fs_preview.wxss */
+.tabdisplay{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10rpx;
+  margin-left: 5rpx;
+  margin-right: 5rpx;
+  border: 4rpx solid #696969;
+  padding: 20rpx;
+}
+.fh{
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: gray;
+}
+.sj{
+  flex: 2;
+  text-align: center;
+  font-weight: 600;
+  color: gray;
+}
+.cz{
+  flex: 1;
+  text-align: center;
+  font-weight: 600;
+  color: gray;
+}
+.itemRoot{
+  display: flex;
+  border-bottom: solid 1px Gainsboro;
+  margin:20rpx;
+  height: 120rpx;
+}
+.name{
+  flex:3;
+  font-size: 30rpx;
+  text-align: center;
+  color: gray;
+}
+.time{
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  margin-left: 20rpx;
+  color: gray;
+}
+.ltime{
+  text-align: center;
+  flex:1;
+  font-size: 30rpx;
+}
+.gtime{
+  text-align: center;
+  flex:1;
+  font-size: 30rpx;
+}
+.operation{
+  flex:1.5;
+  font-size: 30rpx;
+  margin:30rpx;
+  background-color: rgb(235, 213, 213);
+  border-radius: 500rpx;
+  color: gray;
+}

@@ -1,0 +1,52 @@
+/* pages/management/fs_edit/fs_edit.wxss */
+
+
+
+.chang-name {
+  display: flex;
+  flex-direction: row;
+}
+
+.change-name-title {
+  padding:20rpx;
+  width: 30%;
+}
+
+.change-name-input {
+  padding:20rpx;
+  width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+}
+
+.section_title {
+  padding:20rpx;
+  width: max-content;
+  width: 30%;
+}
+
+.picker{
+  padding: 10px;
+  width: 100%;
+}
+.pickcontainer{
+  width: 100%;
+}
+.button-view{
+  width: 100%;
+  position: fixed;
+  bottom:0rpx;
+  justify-content: center;
+}
+
+button{
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+

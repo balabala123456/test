@@ -1,0 +1,29 @@
+<!--pages/lxsindex/fwglindex/pwenter/pwinfo/pwinfo.wxml-->
+<view>
+    <view class="lxinfostyle">
+        <view class="lirdispaly">
+            <text class="textlxr">联系人：</text>
+            <input class="inputlxr" type="text" bindinput="inputlxr" placeholder="请输联系人姓名"></input>
+        </view>
+        <view class="lxfsdisplay">
+            <text class="textphone">联系方式：</text>
+            <input class="inputlxfs" type="number" bindinput="inputlxfs" placeholder="请输联系方式"></input>
+        </view>
+    </view>
+    <view class="pwinfostyle">
+        <view>
+            <text class="textselectpw">请选择牌位类别</text>
+            <view class='offer_item'>
+                <select prop-array='{{selectList}}' selectText="基础(个人信息 如：阖家)" stype="1" selectShow="{{select}}" bind:m_select_touch="m_select_touch"></select>
+            </view>
+        </view>
+        <view>
+            <input  class="textinputpwname" bindinput="inputpwname" placeholder="请输入牌位名(不超过7个字符)"></input>
+        </view>
+    </view>
+    <view>
+        <button class="butinfo" bindtap="butinfo">保存信息</button>
+    </view>
+</view>
+
+

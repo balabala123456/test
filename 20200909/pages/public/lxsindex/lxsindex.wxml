@@ -1,0 +1,16 @@
+<!--pages/lxsindex/lxsindex.wxml-->
+<view class="title">欢迎你！{{"刘昊然"}}</view>
+<view class="display">
+    <button class="syxl">寺院巡礼</button>
+    <button class="sydt">寺院动态</button>
+</view>
+<view class="display">
+    <button class="sk">善款</button>
+    <button class="fwgl" bindtap="fwgl">法务管理</button>
+</view>
+
+<view class="display">
+    <button class="sysw">寺院事务</button>
+    <button class="psyd">菩萨园地</button>
+</view>
+

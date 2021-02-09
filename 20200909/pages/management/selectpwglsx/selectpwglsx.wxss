@@ -1,0 +1,93 @@
+/* pages/management/selectpwglsx/selectpwglsx.wxss */
+.display{
+    margin-top: 200rpx;
+}
+.displayquery_define{
+    display: flex;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+.querypwinfo{
+   flex: 1;
+   border: 2px solid rgb(184, 179, 179);
+   width: 320rpx;
+   height: 300rpx;
+   line-height: 300rpx;
+   border-radius: 16rpx;
+   font-size: 50rpx;
+   color: rgb(80,80,80);
+   text-align: center;
+}
+.definepw{
+    flex: 1;
+    border: 2px solid rgb(184, 179, 179);
+    width: 320rpx;
+    height: 300rpx;
+    line-height: 300rpx;
+    border-radius: 16rpx;
+    font-size: 50rpx;
+    color: rgb(80,80,80);
+    margin-left: 30rpx;
+    text-align: center;
+}
+.displaycount_add{
+    display: flex;
+    margin-top: 30rpx;
+    margin-left: 30rpx;
+    margin-right: 30rpx;
+}
+.displaypwcount{
+    flex: 1;
+    border: 2px solid rgb(184, 179, 179);
+    width: 320rpx;
+    height: 300rpx;
+    line-height: 200rpx;
+    border-radius: 16rpx;
+    font-size: 50rpx;
+    color: rgb(80,80,80);
+    overflow: auto;
+    text-align: center;
+    flex-direction: column;
+}
+.setpw{
+    font-size: 50rpx; 
+    height: 100rpx;  
+}
+.showpw{
+    font-size: 35rpx;
+    height: 100rpx;
+}
+.displayinput{
+    display: flex;
+}
+.pwinput{
+    margin-top: 50rpx;
+    margin-left: 10rpx;
+    text-align: center;
+    border: 4rpx solid rgb(184, 179, 179);
+    width: 200rpx;
+    height: 50rpx;
+}
+.butconfirm{
+    font-size: 21rpx;
+    width: 110rpx;
+    height: 60rpx;
+    margin-top: 50rpx;
+    margin-left: 10rpx;
+    margin-right: 10rpx;
+    text-align: center;
+    background-color: rosybrown;
+}
+.butadd{
+    flex: 1;
+    border: 2rpx solid rgb(184, 179, 179);
+    width: 300rpx;
+    height: 300rpx;
+    line-height: 300rpx;
+    border-radius: 10rpx;
+    font-size: 200rpx;
+    font-weight: 20;
+    color: rgb(184, 179, 179);
+    margin-left: 30rpx;
+    text-align: center;
+}

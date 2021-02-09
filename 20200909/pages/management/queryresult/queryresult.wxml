@@ -1,0 +1,40 @@
+<!--pages/management/queryresult/queryresult.wxml-->
+<!-- 长生禄位查询结果 -->
+<view class="table1">
+  <view class="tr">
+    <view class="th">牌位类别</view>
+    <view class="th">起始日期</view>
+    <view class="th ">截止日期</view>
+    <view class="th ">联系人</view>
+    <view class="th ">联系电话</view>
+  </view>
+  <block wx:for="{{dataList1}}" wx:key="{{pw}}">
+    <view class="tr">
+      <view class="td">{{item.type}}</view>
+      <view class="td">{{item.time}}</view>
+      <view class="td">{{item.deadline}}</view>
+      <view class="td">{{item.linkman}}</view>
+      <view class="td phone">{{item.phone}}</view>
+    </view>
+  </block>
+</view>
+
+<!-- 往生莲位查询结果 -->
+<view class="table2">
+  <view class="tr">
+    <view class="th">牌位类别</view>
+    <view class="th">起始日期</view>
+    <view class="th ">截止日期</view>
+    <view class="th ">联系人</view>
+    <view class="th ">联系电话</view>
+  </view>
+  <block wx:for="{{dataList2}}" wx:key="{{pw}}">
+    <view class="tr">
+      <view class="td">{{item.type}}</view>
+      <view class="td">{{item.time}}</view>
+      <view class="td">{{item.deadline}}</view>
+      <view class="td">{{item.linkman}}</view>
+      <view class="td phone">{{item.phone}}</view>
+    </view>
+  </block>
+</view>

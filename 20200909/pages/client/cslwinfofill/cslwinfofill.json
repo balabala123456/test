@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "长生禄位信息填写",
+  "usingComponents": {
+    "select": "/components/select/select"
+  }
+}

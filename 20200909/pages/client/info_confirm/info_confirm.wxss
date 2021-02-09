@@ -1,0 +1,81 @@
+/* pages/newpage/newpage.wxss */
+.wholestyle{
+    margin: 10rpx;
+    background-color:rgb(235, 231, 231);
+    border-radius: 10rpx;
+}
+.text_name{
+    margin-top: 33rpx;
+    font-size: 30rpx;
+    color: 	Black;
+    margin-left: 10rpx;
+    font-style: inherit;
+}
+.pwdisplay{
+    display: flex;
+    margin-top: 20rpx;
+    border-bottom: 4rpx solid DimGray;
+    height:220rpx ;
+}
+.checkboxstyle{
+    border-radius:50%;
+    margin-top: 70rpx;
+    margin-left: 10rpx;
+}
+.imagesize{
+    margin-left: 20rpx;
+    width: 70rpx;
+    height: 210rpx;
+}
+.textpwname{
+    margin-left: 40rpx;
+    margin-top: 70rpx;
+    font-size: 35rpx;
+    color: 	Black;
+    font-style: inherit;
+}
+.buttondisplay{
+    display: flex;
+    margin-top: 20rpx;
+    margin-left: 350rpx;
+    justify-content: flex-end;
+}
+.butpwyl{
+    font-size: 30rpx;
+    width: 180rpx;
+    height: 70rpx;
+    background-color:rgb(235, 231, 231);
+    border-radius: 0%;
+}
+.butdel{
+    font-size: 30rpx;
+    width: 130rpx;
+    height: 70rpx;
+    margin-left: 5rpx;
+    background-color:rgb(235, 231, 231);
+}
+.button_collection{
+    display: flex;
+    position: fixed;
+    bottom: 60rpx;
+    flex-direction:row;
+    justify-content: space-between;
+    height:100rpx;
+    width:100%;
+}
+.but_add{
+    display: flex;
+    background-color: rosybrown;
+    line-height: 100rpx;
+    width:47%;
+    justify-content:center; 
+    align-items:center;
+  }
+.but_pay{
+    display: flex;
+    background-color: rosybrown;
+    line-height: 100rpx;
+    width:47%;
+    justify-content:center; 
+    align-items:center;
+  }

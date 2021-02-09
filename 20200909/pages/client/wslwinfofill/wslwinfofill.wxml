@@ -1,0 +1,27 @@
+<!--pages/wslwinfofill/wslwinfofill.wxml-->
+<view>
+    <view class="lxinfostyle">
+        <view class="lirdisplay">
+            <text class="textlxr">联系人：</text>
+            <input class="inputlxr" type="text" bindinput="inputlxr" placeholder="请输联系人姓名"></input>
+        </view>
+        <view class="lxfsdisplay">
+            <text class="textphone">联系方式：</text>
+            <input class="inputlxfs" type="number" bindinput="inputlxfs" placeholder="请输联系方式"></input>
+        </view>
+    </view>
+
+    <view class="infostyle">
+        <view class="display">
+            <text class="textcjr">超荐人：</text>
+            <input class="inputcjr" type="text" bindinput="inputcjr" placeholder="请输超荐人姓名"></input>
+        </view>
+        <view class="display">
+            <text class="textgfr">供奉人：</text>
+            <input class="inputgfr" type="number" bindinput="inputgfr" placeholder="请输入供奉人姓名"></input>
+        </view>
+    </view>
+    <view>
+        <button class="butinfo" bindtap="butinfo">保存信息</button>
+    </view>
+</view>

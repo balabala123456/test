@@ -1,0 +1,53 @@
+<!-- 登录入口，这是登录的第一个界面 -->
+<view wx:if="{{useradminchoose}}" class="butadminlogin" bindtap="butadminlogin">
+  <image class="imageadminlogin" src="/image/admin.png"></image>
+  <text class="textadminlogin">管理员入口</text>
+</view>
+<view wx:if="{{useradminchoose}}" class="butuserlogin" bindtap="butuserlogin">
+  <image class="imageuserlogin" src="/image/user.png"></image>
+  <text class="textuserlogin">普通用户入口</text>
+</view>
+
+<!-- 选择登录入口后，有个微信获取手机号的弹窗，这是个人中心第2个页面 -->
+<button wx:if="{{canIUse}}" class="butlogin" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">微信授权登录</button> 
+
+<!--这是用户界面，登录后的个人中心，3-->
+<view class="user" wx:if="{{userVisible}}">
+  <view class="logindisplay">    
+    <open-data class="imagedisplay" type="userAvatarUrl"></open-data>
+    <open-data class="nickname" type="userNickName"></open-data>
+  </view>
+  <button class="butmyorder" bindtap="myorder">
+    <image src="/image/myorder.png" class="iconmyorder" mode='aspectFit' style="height: 50rpx; width: 50rpx;"></image>
+    <text class="textmyorder">我的预定</text>
+    <text class="orderarrow">></text>
+  </button>
+  <button class="butcontact" bindtap="butcontact">
+    <image src="/image/contact.png" class="iconcontact" mode='aspectFit' style="height: 50rpx; width: 50rpx;"></image>
+    <text class="textcontact">联系电话</text>
+    <text class="contactarrow">></text>
+  </button>
+  <button class="logout" bindtap="logout">退出登录</button>
+</view>
+
+<!--这是管理员界面，登录后的个人中心,3-->
+<view class="admin" wx:if="{{adminVisible}}">
+  <view class="logindisplay">    
+    <open-data class="imagedisplay" type="userAvatarUrl"></open-data>
+    <open-data class="nickname" type="userNickName"></open-data>
+  </view>
+  <button class="butmyorder" bindtap="pwcountset">
+    <image src="/image/pwcountset.png" class="iconmyorder" mode='aspectFit' style="height: 50rpx; width: 50rpx;"></image>
+    <text class="textmyorder">牌位总量设置</text>
+    <text class="orderarrow">></text>
+  </button>
+  <button class="butcontact" bindtap="defpw">
+    <image src="/image/defpw.png" class="iconcontact" mode='aspectFit' style="height: 50rpx; width: 50rpx;"></image>
+    <text class="textcontact">自定义牌位</text>
+    <text class="contactarrow">></text>
+  </button>
+  <button class="logout" bindtap="logout">退出登录</button>
+</view>
+
+
+

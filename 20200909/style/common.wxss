@@ -1,0 +1,4 @@
+view{
+    color:blue;
+    font-size: 40px;
+}

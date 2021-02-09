@@ -1,0 +1,55 @@
+/* pages/register/register.wxss */
+.wholedisplay{
+  margin-top: 200rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.inputphone{
+  border-bottom: 4rpx solid rgb(166, 166, 166);
+}
+.textinputphone{
+  font-weight: 600;
+}
+.codedisplay{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 4rpx solid rgb(166, 166, 166);
+}
+.inputyzm{
+  padding-top: 60rpx;
+}
+.textinputyzm{
+  font-weight: 600;
+}
+.getverifycode{
+  font-size:30rpx;
+  color: rgb(84, 164, 224);
+  margin-top: 5rpx;
+  background-color: white;
+  padding-top: 50rpx;
+  margin-left: 90rpx;
+}
+.getverifycode::after{
+  border: none;
+}
+.inputpassword{
+  margin-top: 80rpx;
+  border-bottom: 4rpx solid rgb(166, 166, 166);
+}
+.textinputpassword{
+  font-weight: 600;
+}
+.inputpassword1{
+  margin-top: 80rpx;
+  border-bottom: 4rpx solid rgb(166, 166, 166);
+}
+.textinputpassword1{
+  font-weight: 600;
+}
+.butregister{
+  margin-top: 40rpx;
+  background-color: rosybrown;
+  font-weight: 600;
+  color: white;
+}
