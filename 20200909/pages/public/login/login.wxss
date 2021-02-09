@@ -1,0 +1,161 @@
+.butadminlogin{
+  background-color: #eeeeee;
+  margin-top: 200rpx;
+  margin-left:240rpx ;
+  width: 250rpx;
+  height: 250rpx;
+  color: white;
+  border-radius: 20rpx;
+  
+}
+.imageadminlogin{
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+.textadminlogin{
+  margin-left: 45rpx;
+  margin-top: 40rpx;
+  color: rgb(97, 96, 96);
+  font-weight: 600;
+}
+
+.butuserlogin{
+  background-color: #eeeeee;
+  margin-top: 200rpx;
+  margin-left:240rpx ;
+  width: 250rpx;
+  height: 250rpx;
+  color: white;
+  border-radius: 20rpx;
+}
+.imageuserlogin{
+  margin-left: 50rpx;
+  margin-top: 40rpx;
+  width: 150rpx;
+  height: 150rpx;
+}
+.textuserlogin{
+  margin-left: 30rpx;
+  margin-top: 40rpx;
+  color: rgb(97, 96, 96);
+  font-weight: 600;
+}
+
+/*用户页面*/
+.logindisplay{
+  display: flex;
+  background-color:rgb(247, 238, 238);
+  height:400rpx ;
+  flex-direction: column;
+}
+.imagedisplay{
+  display: flex;
+  width: 160rpx;
+  height: 160rpx;
+  margin-left: 300rpx;
+  margin-top: 120rpx;
+  border-radius: 50%;
+  overflow: hidden;/*规定当内容溢出元素框时发生的事情*/
+}
+.nickname{
+  display: flex;
+  width:100%;
+  justify-content: center;
+  margin-top: 15rpx;
+}
+.butmyorder{
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  height: 100rpx;
+  background-color: rgb(253, 249, 249);
+  border-bottom-color: rgb(56, 53, 53);
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.iconmyorder{
+  flex: 1;
+  margin-top: 30rpx;
+  height: 50rpx;
+}
+.textmyorder{
+  flex: 6;
+  margin-right: 400rpx;
+  color: rgb(115, 114, 114);
+  font-size: 30rpx;
+  line-height: 100rpx;
+}
+.orderarrow{
+  flex: 1;
+  color: rgb(163, 162, 162);
+}
+.butcontact{
+  display: flex;
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  height: 100rpx;
+  background-color: rgb(253, 249, 249);
+  border-top-left-radius: 0%;
+  border-top-right-radius: 0%;
+}
+.iconcontact{
+  flex: 1;
+  margin-top: 10rpx;
+  margin-top: 30rpx;
+}
+.textcontact{
+  flex: 6;
+  margin-right: 400rpx;
+  line-height: 100rpx;
+  color: rgb(115, 114, 114);
+  font-size: 30rpx;
+}
+.contactarrow{
+  flex: 1;
+  color: rgb(163, 162, 162);
+}
+
+/* pages/client/userlogin/userlogin.wxss */
+.butlogin{
+  margin: 100rpx;
+  margin-top:500rpx;
+  background-color: rosybrown;
+  color: white;
+}
+.dialog-body{
+  height: 370rpx;
+}
+.dialog-content{
+  margin-left:100rpx;
+}
+.dialog-footer{
+  display: flex;
+  margin-top: 100rpx;
+}
+.cancel-btn{
+  position: absolute;
+  font-size: 30rpx;
+  width: 200rpx;
+  height: 80rpx;
+  margin-left: 50rpx;
+}
+.confirm-btn{
+  position: absolute;
+  font-size: 30rpx;
+  width: 200rpx;
+  height: 80rpx;
+  margin-left: 400rpx;
+  margin-right: 50rpx;
+  background-color: rosybrown;
+}
+.logout{
+  margin-top: 350rpx;
+  width: 700rpx;
+  height: 90rpx;
+  background-color: rosybrown;
+  color: aliceblue;
+}

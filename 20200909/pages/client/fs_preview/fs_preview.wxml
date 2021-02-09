@@ -1,0 +1,17 @@
+<!--pages/fs_preview/fs_preview.wxml-->
+<view class="tabdisplay" bindtap="getData">
+    <view class="fh">法会</view>
+    <view class="sj">时间</view>
+    <view class="cz">操作</view>
+</view>
+<view wx:for="{{dataList}}" wx:key="this">
+    <view class = "itemRoot">
+        <view class="name">{{item.name}}</view>
+        <view class="time">
+            <view class="ltime">{{item.ltime}}</view>
+            <view class="gtime">{{item.gtime}}</view>
+        </view>
+        <button class="{{item.isOrder ? 'hide' : 'operation' }}"  data-fhid="{{item._id}}" bindtap="operation">预定</button>
+    </view> 
+</view>
+

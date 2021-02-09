@@ -1,0 +1,101 @@
+/* pages/management/pwinfoquery/pwinfoquery.wxss */
+.display_select_but{
+    display: flex;
+    border: 3rpx solid rosybrown;
+    border-radius: 20rpx;
+    margin-top: 5rpx;
+}
+.buttime{
+    flex: 1;
+    height: 70rpx;
+    font-size: 35rpx;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    text-align: center;
+    line-height: 70rpx;
+}
+.butnametel{
+    flex: 1;
+    height: 70rpx;
+    font-size: 35rpx;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+    line-height: 70rpx;
+}
+.displaydeadline{
+    border: 3rpx solid rgb(207, 204, 204);
+    margin:15rpx;
+    border-radius: 10rpx;
+    overflow: auto;
+    margin-top: 40rpx;
+}
+.textdeadline{
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+    margin-left: 10rpx;
+    font-size: 40rpx;
+}
+.displaytime{
+    display: flex;
+    margin: 10rpx;
+}
+.inputyear{
+    flex: 3;
+    border: 4rpx solid  #929292; 
+    margin-right: 10rpx;
+    padding-left: 10rpx;
+    text-align: center;
+    border-radius: 5rpx;
+}
+.textyear{
+    flex: 1;
+    font-weight: 600;
+    color: rgb(109,109,109);
+    margin-right:10rpx;
+}
+.inputmonth{
+    flex: 1;
+    border: 4rpx solid  #929292;
+    margin-right: 10rpx;
+    text-align: center;
+    padding-left: 10rpx;
+    border-radius: 5rpx;
+}
+.textmonth{
+    flex: 1;
+    font-weight: 600;
+    color: rgb(109,109,109);
+    margin-right: 10rpx;
+}
+.inputday{
+    flex: 2;
+    border: 4rpx solid  #929292;
+    margin-right:10rpx;
+    text-align: center;
+    padding-left: 10rpx;
+    border-radius: 5rpx;
+}
+.textday{
+    flex: 1;
+    font-weight: 600;
+    color: rgb(109,109,109);
+}
+.butquery{
+    width: 135rpx;
+    height: 80rpx;
+    font-size: 35rpx;
+    border-radius: 30rpx;
+    background-color: rosybrown;
+    margin-bottom: 10rpx;
+    margin-right: 10rpx;
+    line-height: 80rpx;
+    float: right;
+    color: #ffffff;
+}
+.displayinitline{
+    border: 3rpx solid rgb(207, 204, 204);
+    margin:15rpx;
+    margin-top: 40rpx;
+    border-radius: 10rpx;
+    overflow: auto;
+}

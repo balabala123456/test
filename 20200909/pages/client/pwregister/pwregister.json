@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "供奉牌位登记",
+  "usingComponents": {
+    "select": "/components/select/select"
+  }
+}

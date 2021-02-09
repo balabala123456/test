@@ -1,0 +1,26 @@
+<!--pages/management/selectpwglsx/selectpwglsx.wxml-->
+<view class="display">
+    <view class="displayquery_define">
+        <view class="querypwinfo" bindtap="pwinfoquery">牌位信息查询</view>
+        <view class="definepw" bindtap="pwdefine">自定义牌位</view>
+    </view>
+    <view class="displaycount_add"> 
+        <!-- 牌位总量设置按钮 -->
+        <view class="displaypwcount" hidden="{{butpwcountset}}" bindtap="setpw">
+            <view class="setpw">牌位总量设置</view>
+            <view class="showpw">牌位总数: {{pwcount}}</view>
+        </view>
+        <!-- 牌位总量输入 -->
+        <view class="displaypwcount" hidden="{{pwcountset}}">
+            <view class="showpw">牌位总数: {{pwcount}}</view>
+            <view class="displayinput">
+                <input class="pwinput" type="number" bindinput="pwinput"></input>
+                <button class="butconfirm" bindtap="confirm">确认</button>
+            </view>
+        </view>
+        <view class="butadd">+</view>
+    </view>
+</view>
+
+
+

@@ -1,0 +1,3 @@
+<!--pages/lxsindex/fwglindex/fwglindex.wxml-->
+<button class="qnfsyl" bindtap="fsenter">全年佛事预览</button>
+<button class="pwgl" bindtap="pwenter">牌位管理</button>

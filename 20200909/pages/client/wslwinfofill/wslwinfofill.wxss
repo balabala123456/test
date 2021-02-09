@@ -1,0 +1,90 @@
+/* pages/wslwinfofill/wslwinfofill.wxss */
+.lxinfostyle{
+    margin:20rpx;
+    margin-top: 30rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+    background-color:rgb(235, 231, 231);
+}
+.lirdisplay{
+    display: flex;
+}
+.textlxr{
+    margin-top: 33rpx;
+    font-size: 35rpx;
+    color: 	Black;
+    margin-left: 10rpx;
+    font-style: inherit;
+}
+.inputlxr{
+    font-size: 30rpx; 
+    padding: 5rpx;
+    margin-top: 15rpx;
+    margin-left: 50rpx;
+    border-bottom: 4rpx solid  DimGray; 
+    width: 500rpx;
+}
+.lxfsdisplay{
+    display: flex;
+}
+.textphone{
+    margin-top: 35rpx;
+    font-size: 35rpx;
+    color: 	Black;
+    margin-left: 10rpx;
+    font-style: inherit;
+}
+.inputlxfs{
+    font-size: 30rpx; 
+    padding: 5rpx;
+    margin-top: 15rpx;
+    margin-left: 15rpx;
+    border-bottom: 4rpx solid DimGray; 
+    width: 500rpx;
+}
+.infostyle{
+    margin:20rpx;
+    margin-top: 30rpx;
+    height: 200rpx;
+    border-radius: 10rpx;
+    background-color:rgb(235, 231, 231);
+}
+.display{
+    display: flex;
+}
+.textcjr{
+    margin-top: 33rpx;
+    font-size: 35rpx;
+    color: 	Black;
+    margin-left: 10rpx;
+    font-style: inherit;
+}
+.inputcjr{
+    font-size: 30rpx; 
+    padding: 5rpx;
+    margin-top: 15rpx;
+    margin-left: 50rpx;
+    border-bottom: 4rpx solid  DimGray; 
+    width: 500rpx;
+}
+.textgfr{
+    margin-top: 35rpx;
+    font-size: 35rpx;
+    color: 	Black;
+    margin-left: 10rpx;
+    font-style: inherit;
+}
+.inputgfr{
+    font-size: 30rpx; 
+    padding: 5rpx;
+    margin-top: 15rpx;
+    margin-left: 50rpx;
+    border-bottom: 4rpx solid DimGray; 
+    width: 500rpx;
+}
+.butinfo{
+    margin-top: 600rpx;
+    background-color: rosybrown;
+    margin-left: 50rpx;
+    margin-right: 50rpx;
+  }

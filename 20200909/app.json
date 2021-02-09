@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/public/index/index",
+    "pages/public/login/login",
+    "pages/client/pwregister/pwregister",
+    "pages/public/lxsindex/lxsindex",
+    "pages/public/fwglindex/fwglindex",
+    "pages/client/cslwinfofill/cslwinfofill",
+    "pages/client/personalCenter/personalCenter",
+    "pages/client/wslwinfofill/wslwinfofill",
+    "pages/client/info_confirm/info_confirm",
+    "pages/client/pw_preview/pw_preview",
+    "pages/client/myorder/myorder",
+    "pages/client/fs_preview/fs_preview",
+    "pages/management/fs_preview/fs_preview",
+    "pages/management/selectpwglsx/selectpwglsx",
+    "pages/management/pwinfoquery/pwinfoquery",
+    "pages/management/queryresult/queryresult",
+    "pages/public/uploadata/uploadata",
+    "pages/management/fs_edit/fs_edit"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#BC8F8F",
+    "navigationBarTitleText": "武昌莲溪寺",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#BC8F8F"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/public/index/index",
+        "text": "首页",
+        "iconPath": "/icon/home.png",
+        "selectedIconPath": "/icon/_home.png"
+      },
+      {
+        "pagePath": "pages/public/login/login",
+        "text": "我的",
+        "iconPath": "/icon/login.png",
+        "selectedIconPath": "/icon/_login.png"
+      }
+    ],
+    "color": "#000000",
+    "selectedColor": "#BC8F8F"
+  },
+  "sitemapLocation": "sitemap.json"
+}

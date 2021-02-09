@@ -1,0 +1,65 @@
+/* pages/myorder/myorder.wxss */
+page {
+  background: #efefef;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.backgroundView {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  border-radius: 20rpx;
+}
+
+.stateView{
+  display: flex;
+  flex-direction: row;
+  border-radius: 20rpx;
+  justify-content: space-between;
+}
+
+.nameText {
+  margin-top: 20rpx;
+  font-size: 44rpx;
+  color: 	Black;
+  margin-left: 20rpx;
+  font-style: inherit;
+  font-weight: bold;
+}
+
+.stateText {
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  color: red;
+}
+
+.stateText2 {
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  color: green;
+}
+
+.stateText3 {
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  color: #cccccc;
+}
+
+.positionText {
+  margin-top: 10rpx;
+  font-size: 34rpx;
+  color: black;
+  margin-left: 20rpx;
+  font-style: inherit;
+}
+
+.timeText {
+  margin-top: 10rpx;
+  font-size: 28rpx;
+  color: black;
+  margin-left: 20rpx;
+}

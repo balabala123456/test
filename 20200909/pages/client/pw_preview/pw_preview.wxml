@@ -1,0 +1,6 @@
+<!--pages/pw_preview/pw_preview.wxml-->
+<view class="imagedisplay"> 
+    <image class="image" wx:if="{{type =='长生禄位'}}" src='/image/cslw.jpg'></image>
+    <image class="image" wx:else src='/image/wslw.jpg'></image>
+    <text class="text">{{content}}</text>
+</view>

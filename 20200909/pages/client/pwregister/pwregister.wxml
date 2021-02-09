@@ -1,0 +1,27 @@
+<!--pages/lxsindex/fwglindex/pwenter/pwenter.wxml-->
+<view class="wholestyle">
+  <text class="selectpwtext">选择牌位：</text>
+  <view class="displaychoose">
+      <view class='choose' >
+        <view wx:for="{{choose}}" bindtap='click' data-id="{{index}}">
+          <button class='button' style="{{index == id?'background-color:#BC8F8F;color:#fff':'background-color:#eee;color:#767676'}}">{{item.pwtext}}</button>
+        </view>
+      </view>
+      <view class="picdisplay">
+        <image src="https://7465-test-co8de-1302871117.tcb.qcloud.la/image/cslw.jpg?sign=6d2b7e859f3e8cd9f100ac524d6e9136&t=1603198376" class="imagecslw"></image>
+        <image src="https://7465-test-co8de-1302871117.tcb.qcloud.la/image/wslw.jpg?sign=ec2a24d84bdd57670d4248e5361bf761&t=1603198400" class="imagewslw"></image>
+      </view>
+  </view>
+  <view class='offer_item'>
+    <select prop-array='{{selectList}}' selectText="选择年限" stype="1" selectShow="{{select}}" bind:m_select_touch="m_select_touch"></select>
+  </view>
+  <view>
+    <button class="butinfo" bindtap="butinfo">填写信息</button>
+  </view>
+</view>
+
+
+
+
+
+

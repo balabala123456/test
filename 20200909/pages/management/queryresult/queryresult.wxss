@@ -1,0 +1,38 @@
+.table1 {
+    border: 1px solid darkgray;
+    margin: 10rpx;
+    margin-top: 20rpx;
+  }
+  .table2 {
+    border: 1px solid darkgray;
+    margin: 10rpx;
+    margin-top: 100rpx;
+  }
+
+  .tr {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 80rpx;
+    align-items: center;
+    font-size: 25rpx;
+    color: rgb(83, 82, 82);
+  }
+  .td {
+      width:40%;
+      justify-content: center;
+      text-align: center;
+  }
+  .th {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color:rosybrown;
+    color: #fff;
+    height: 100rpx;
+    align-items: center;
+    border-right:1px solid darkgray;
+  }
+  .phone{
+      font-size: 20rpx;
+  }

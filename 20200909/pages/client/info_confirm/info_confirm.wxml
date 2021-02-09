@@ -1,0 +1,22 @@
+<!--pages/newpage/newpage.wxml-->
+<scroll-view scroll-y="true" style="height: 1500rpx" lower-threshold="35">
+	<view wx:for="{{pw_list}}" wx:for-item="pw_list" wx:key="{{index}}" class="pw_layout">
+		<view class="wholestyle">
+			<text class="text_name">{{pw_list.type}}</text>
+			<view class="pwdisplay">
+        <image class="imagesize" wx:if="{{pw_list.type =='长生禄位'}}" src='/image/cslw.jpg'></image>
+        <image class="imagesize" wx:else src='/image/wslw.jpg'></image>
+				<text class="textpwname">{{pw_list.item2}}</text>
+			</view>
+			<view class="buttondisplay">
+				<button class="butpwyl" data-id="{{index}}" bindtap="butpwyl">牌位预览</button>
+				<button class="butdel" data-id="{{index}}" bindtap="delete">删除</button>
+			</view>
+		</view>
+	</view>
+</scroll-view>
+
+<view class='button_collection'>
+		<button class="but_add" bindtap="add">继续添加</button>
+		<button class="but_pay" bindtap="pay">去支付</button>
+</view>

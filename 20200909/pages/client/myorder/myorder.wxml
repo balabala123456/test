@@ -1,0 +1,27 @@
+<!--pages/myorder/myorder.wxml-->
+<view class="backgroundView">
+  <view class="stateView">
+    <text class="nameText">祈福</text>
+    <text class="stateText">未开始</text>
+  </view>
+  <text class="positionText">这是一个显示位置的，祈福的地点在一号厅</text>
+  <text class = "timeText">2021年1月22日</text>
+</view>
+
+<view class="backgroundView">
+  <view class="stateView">
+    <text class="nameText">新春祈福 千佛宝忏法会</text>
+    <text class="stateText2">进行中</text>
+  </view>
+  <text class="positionText">这是一个显示位置的，祈福的地点在一号厅超长版</text>
+  <text class = "timeText">2021年1月21日</text>
+</view>
+
+<view class="backgroundView">
+  <view class="stateView">
+    <text class="nameText">新春祈福斋天法会</text>
+    <text class="stateText3">已过期</text>
+  </view>
+  <text class="positionText">这是一个显示位置的，祈福的地点在一号厅</text>
+  <text class = "timeText">2021年1月20日</text>
+</view>

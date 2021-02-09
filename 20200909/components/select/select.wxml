@@ -1,0 +1,12 @@
+<!--component/select/select.wxml-->
+<view class='select_box_wrap'>
+  <view class='select_box'>
+    <view class='select_content' bindtap='selectToggle'>
+        <view class='select_text' style="color:{{textColor}}">{{selectText}}</view>
+        <image src='https://7465-test-co8de-1302871117.tcb.qcloud.la/image/jt.png?sign=e10907a9b00dd142e85ecb0256615234&t=1603198490'  class='select_img'  animation="{{animationData}}"></image>
+    </view>
+    <view class="select_list" animation="{{dropdown_Data}}">
+      <view wx:for="{{propArray}}" data-index="{{index}}" wx:key='' class='select_item' bindtap='setText'>{{item.text}}</view>
+    </view>
+  </view>
+</view>

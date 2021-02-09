@@ -1,0 +1,30 @@
+<!--pages/management/fs_edit/fs_edit.wxml-->
+
+<view class="pagebody">
+  <view class="chang-name">
+   <view class="change-name-title">法会名称:</view>
+    <input class="change-name-input" auto-focus placeholder="请输入名称" value="{{default_name}}" bindblur='changeName' bindconfirm='changeName' bindinput='changeName'/>
+  </view>
+
+  <view class="section">
+    <view class="section_title">开始时间：</view>
+    <picker class="pickcontainer" mode="date" value="{{bdate}}" start="2000-01-01" end="2121-01-01" bindchange="bindBeginDateChange">
+      <view class="picker">
+         {{bdate}}
+      </view>
+    </picker>
+  </view>
+
+  <view class="section">
+    <view class="section_title">结束时间：</view>
+    <picker class="pickcontainer" mode="date" value="{{edate}}" start="2000-01-01" end="2121-09-01" bindchange="bindEndDateChange">
+      <view class="picker">
+         {{edate}}
+      </view>
+    </picker>
+  </view>
+</view>
+<view class="button-view">
+  <button type="primary" bindtap="saveInfo"> 保存</button>
+  <button type="warn" bindtap="deleteInfo">删除法会</button>
+</view>
