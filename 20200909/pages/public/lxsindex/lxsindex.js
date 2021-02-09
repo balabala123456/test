@@ -3,11 +3,18 @@
 var util = require('../../../utils/util.js');
 Page({
 
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad: function (options) {
-
+    data:{
+      name:'刘昊然'
+    },
+    onLoad: function () {
+      // wx.getUserInfo({
+      //   success: (e) => {
+      //     console.log(e.rawData[13])
+      //     this.setData({
+      //       name:e.rawData[0]
+      //     })
+      //   }
+      // })
     },
     fwgl(){
         wx.navigateTo({
