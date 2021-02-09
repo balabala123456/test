@@ -15,11 +15,16 @@ Page({
         url: '/pages/client/fs_preview/fs_preview'
       })  
     }
-    if(app.globalData.tabIndex == 1){
+    else if(app.globalData.tabIndex == 1){
       //如果是管理员跳转到管理员的佛事预览界面
       wx.navigateTo({
         url: '/pages/management/fs_preview/fs_preview'
       }) 
+    }else{
+      wx.showToast({
+        title: '权限不足',
+        duration: 1000
+      })
     }
   },
   //牌位管理入口
@@ -30,10 +35,15 @@ Page({
         url:  "/pages/client/pwregister/pwregister",
       })
     }
-    if(app.globalData.tabIndex == 1){
+    else if(app.globalData.tabIndex == 1){
       //如果是管理员跳转到管理员的牌位管理界面
       wx.navigateTo({
         url:  "/pages/management/selectpwglsx/selectpwglsx",
+      })
+    }else{
+      wx.showToast({
+        title: '权限不足',
+        duration: 1000
       })
     }
 

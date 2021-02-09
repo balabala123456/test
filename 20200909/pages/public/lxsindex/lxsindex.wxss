@@ -14,7 +14,7 @@
   margin-top:30rpx;
   margin-left: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);
@@ -27,7 +27,7 @@
   margin-top:30rpx;
   margin-right: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);
@@ -40,7 +40,7 @@
   margin-top:10rpx;
   margin-left: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);
@@ -53,7 +53,7 @@
   margin-top:10rpx;
   margin-right: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);
@@ -66,7 +66,7 @@
   margin-top:10rpx;
   margin-left: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);
@@ -79,7 +79,7 @@
   margin-top:10rpx;
   margin-right: 40rpx;
   border-left: 10rpx;
-  padding-top: 100rpx;
+  line-height: 320rpx;
   background-color: white;
   height: 320rpx;
   border: 1px solid rgb(184, 179, 179);

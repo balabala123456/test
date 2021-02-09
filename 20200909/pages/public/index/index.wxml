@@ -1,13 +1,19 @@
 <!--index.wxml-->
 <swiper autoplay circular interval="3000" indicator-dots indicator-active-color="#FFD700" indicator-color="#DCDCDC">
   <swiper-item> 
-    <image mode="widthFix" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3681034011,1459287656&fm=26&gp=0.jpg"/> 
+    <image mode="widthFix" src="/image/轮播图1.jpg"/> 
   </swiper-item>
   <swiper-item> 
-    <image mode="widthFix" src="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2108477929,3472047376&fm=11&gp=0.jpg"/> 
+    <image mode="widthFix" src="/image/轮播图2.jpg"/> 
   </swiper-item>
   <swiper-item> 
-    <image mode="widthFix" src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2413549029,1511924136&fm=26&gp=0.jpg"/> 
+    <image mode="widthFix" src="/image/轮播图3.jpg"/> 
+  </swiper-item>
+  <swiper-item> 
+    <image mode="widthFix" src="/image/轮播图4.jpg"/> 
+  </swiper-item>
+  <swiper-item> 
+    <image mode="widthFix" src="/image/轮播图5.jpg"/> 
   </swiper-item>
 </swiper>
 
