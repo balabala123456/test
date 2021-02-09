@@ -1,5 +1,5 @@
 <!--pages/lxsindex/lxsindex.wxml-->
-<view class="title">欢迎你！{{name}}</view>
+<view class="title">欢迎你！<open-data type="userNickName"></open-data> </view>
 <view class="display">
     <button class="syxl">寺院巡礼</button>
     <button class="sydt">寺院动态</button>

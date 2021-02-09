@@ -3,8 +3,8 @@
   font-weight: 600;
   color: rgb(80,80,80);
   margin-top: 30rpx;
-  margin-left: 250rpx;
-  font-size: 50rpx;
+  font-size: 40rpx;
+  text-align: center;
 }
 .display{
   display: flex;
