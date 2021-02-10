@@ -87,6 +87,11 @@
           "pathName": "pages/management/fs_edit/fs_edit",
           "query": "",
           "scene": null
+        },
+        {
+          "name": "pages/public/fwglindex/fwglindex",
+          "pathName": "pages/public/fwglindex/fwglindex",
+          "scene": null
         }
       ]
     }

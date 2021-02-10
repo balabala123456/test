@@ -1,23 +1,31 @@
 /* pages/lxsindex/fwglindex/fwglindex.wxss */
-.qnfsyl{
-  margin-top:200rpx;
-  line-height: 200rpx;
-  background-color: #eeeeee;
-  height: 200rpx;
+.display{
+  margin-top: 200rpx;
+  margin-left: 120rpx;
+  height: 600rpx;
   width: 500rpx;
-  border-radius: 16rpx;
-  font-size: 60rpx;
+  background-color:#eeeeee;
+  border: 1rpx solid #eeeeee;
+}
+.qnfsyl{
+  margin-top:120rpx;
+  line-height: 120rpx;
+  background-color:rosybrown;
+  height: 120rpx;
+  width: 330rpx;
+  border-radius: 30rpx;
+  font-size: 45rpx;
   font-weight: 600;
-  color:  rgb(97, 96, 96);
+  color:  rgb(243, 243, 243);
 }
 .pwgl{
-  margin-top:200rpx;
-  line-height: 200rpx;
-  background-color: #eeeeee;
-  height: 200rpx;
-  width: 500rpx;
-  border-radius: 16rpx;
-  font-size: 60rpx;
+  margin-top:100rpx;
+  line-height: 120rpx;
+  background-color:rosybrown;
+  height: 120rpx;
+  width: 330rpx;
+  border-radius: 30rpx;
+  font-size: 45rpx;
   font-weight: 600;
-  color:  rgb(97, 96, 96)
+  color:  rgb(243, 243, 243);
 }
