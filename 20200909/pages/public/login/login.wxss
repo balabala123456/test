@@ -6,6 +6,7 @@
   height: 250rpx;
   color: white;
   border-radius: 20rpx;
+  
 }
 .imageadminlogin{
   margin-left: 50rpx;

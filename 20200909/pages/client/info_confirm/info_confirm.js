@@ -79,7 +79,8 @@ Page({
       minute=minute<10?'0'+minute:minute//如果分钟是个位数，如2，写为'02'
       var second = date.getSeconds()
       second=second<10?'0'+second:second//如果秒是个位数，如2，写为'02'
-      that.data.total_info.deadline=(present_year+vari_year)+'/'+month+'/'+day+' '+hour+':'+minute+":"+second
+      //that.data.total_info.deadline=(present_year+vari_year)+'/'+month+'/'+day+' '+hour+':'+minute+":"+second
+      that.data.total_info.deadline=(present_year+vari_year)+'/'+month+'/'+day
       //console.log(that.data.total_info.time)
       //console.log("deadline为："+that.data.total_info.deadline)
 
@@ -136,11 +137,12 @@ Page({
         outTradeNo += Math.floor(Math.random() * 10);
       }
       let that = this;
+      var i=that.data.pw_list.length //已经填写信息的牌位数
       wx.cloud.callFunction({
         name: "pay",
         data: {
           orderid: outTradeNo,
-          money: 1
+          money: i
         },
         success(res) {
           console.log("提交成功", res.result)
@@ -154,6 +156,7 @@ Page({
     
     //实现小程序支付
     payexcute(payData) {
+      let that=this;
       //官方标准的支付方法
       wx.requestPayment({
         timeStamp: payData.timeStamp,//时间戳
@@ -163,6 +166,7 @@ Page({
         paySign: payData.paySign, //签名
         success(res) {
           console.log("支付成功", res)
+          that.uploadData()
         },
         fail(res) {
           console.log("支付失败", res)
@@ -171,22 +175,25 @@ Page({
           console.log("支付完成", res)
         }
       })
-    }
-      //信息上传至数据库
-      /*console.log(app.globalData.pw_list)
+    },
+
+    //上传数据至数据库
+    uploadData(){
+      let that = this;
+      console.log(app.globalData.pw_list)
       const db = wx.cloud.database()
-      var i=this.data.pw_list.length //已经填写信息的牌位数
+      var i=that.data.pw_list.length //已经填写信息的牌位数
       for(var j=0;j<i;j++){
         db.collection('PwInfo').add({
           data:{
-            type:this.data.pw_list[j].type,
-            duration:this.data.pw_list[j].duration,
-            linkman:this.data.pw_list[j].linkman,
-            phone:this.data.pw_list[j].phone,
-            item1:this.data.pw_list[j].item1,
-            item2:this.data.pw_list[j].item2,
-            time:this.data.pw_list[j].time,
-            deadline:this.data.pw_list[j].deadline,
+            deadline:that.data.pw_list[j].deadline,
+            item1:that.data.pw_list[j].item1,//长生牌位类别/超荐人
+            item2:that.data.pw_list[j].item2,//长生牌位祈福内容/供奉人
+            type:that.data.pw_list[j].type,
+            phone:that.data.pw_list[j].phone,
+            linkman:that.data.pw_list[j].linkman,
+            //duration:this.data.pw_list[j].duration,
+            //time:this.data.pw_list[j].time,
           },
           success: res => {
             // 在返回结果中会包含新创建的记录的 _id
@@ -203,5 +210,6 @@ Page({
             console.error('[数据库] [新增记录] 失败：', err)
           }
         })
-      }*/ 
+      }
+    }
   })

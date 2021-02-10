@@ -1,2 +1,2 @@
 <!--pages/public/uploadata/uploadata.wxml-->
-<button bindtap="uploaddata">上传表格数据</button>
+<text>pages/public/uploadata/uploadata.wxml</text>

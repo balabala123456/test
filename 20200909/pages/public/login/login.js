@@ -75,6 +75,7 @@ Page({
       }).catch(err =>{
         console.log('获取失败',err)
       })
+      //这里好奇怪啊！编译难道不是从上往下逐条编译吗，为啥我上面授权获取的手机号在用来做数据库数据查询时就找不到！！！
       //在数据库中查找是管理员列表中是否有刚刚授权的手机号
       await DB.where({
           phone: this.data.phone

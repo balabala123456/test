@@ -1,7 +1,7 @@
 /**index.wxss**/
 swiper{
   width: 100%;
-  height: calc(100*6000/4000);
+  height: calc(1000*5184/3888);
 }
 image{
   width: 100%;
